@@ -37,9 +37,9 @@ def main():
     for i, expression in enumerate(expressions, start=1):
         result = is_valid_math_expression(expression)
         if result:
-            print(f"Girilen ifade {i}. ifade için matematiksel bir ifadedir.")
+            print(f"Girilen  {i}. ifade  matematiksel bir ifadedir.")
         else:
-            print(f"Girilen ifade {i}. ifade için matematiksel bir ifade değildir veya parantez eşleşmesi hatası veya sıfıra bölme hatası içeriyor.")
+            print(f"Girilen  {i}. ifade  matematiksel bir ifade değildir")
 
 if __name__ == "__main__":
     main()
